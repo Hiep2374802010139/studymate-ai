@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { BookOpen, Bot, Send, LogOut, Plus, Trash2, Sparkles, Menu, X, GraduationCap } from "lucide-react";
 
 const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
